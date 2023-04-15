@@ -1,0 +1,4 @@
+setenv LD_PRELOAD /opt/ipm/lib/libipm.so
+mpirun ./a.out
+unsetenv LD_PRELOAD
+
